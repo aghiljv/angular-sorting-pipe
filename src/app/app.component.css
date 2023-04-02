@@ -8,8 +8,8 @@ h1, h2 {
     justify-content: center;
     margin: 1vh;
     padding: 1vh;
-    width: 50vw;
-    height: 5vh;
+    width: fit-content;
+    height: fit-content;
     background-color: black;
     color: white;
     border: darkgrey;
