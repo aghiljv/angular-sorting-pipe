@@ -1,0 +1,17 @@
+h1, h2 {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh;
+    padding: 1vh;
+    width: 50vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border: darkgrey;
+    box-shadow: 1px 1px 10px black;
+}

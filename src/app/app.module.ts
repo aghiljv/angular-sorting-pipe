@@ -1,16 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { SortPipe } from './sort.pipe';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, SortPipe],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
